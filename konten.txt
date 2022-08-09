@@ -3,4 +3,6 @@
 - js
   * ES6
   * Framework Js
+    ^ angular
+    ^ React
  -mysql
