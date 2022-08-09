@@ -1,8 +1,11 @@
 - html
 - css
 - js
+ * react js
   * ES6
   * Framework Js
-    ^ angular
-    ^ React
- -mysql
+ - mysql
+ - phyton
+ - php framework
+   ^ laravel
+ - interview
