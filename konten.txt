@@ -3,3 +3,4 @@
 - js
   * ES6
   * Framework Js
+ -mysql
