@@ -1,0 +1,116 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sign_in
+{
+    height: 100vh;
+    display: flex;
+}
+
+.sign_left
+{
+    flex: 1;
+}
+.sign_right
+{
+    flex: 1;
+    background: #0D28A6;  
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right_cover
+{
+    padding-top: 80px; 
+     padding-left: 100px;  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.image_wrapper{
+    display: flex;
+    position: relative;
+    flex:1;
+}
+h1{
+    margin-bottom:  30px;
+    font-size: 48px;
+    color: #FFFFFF;
+    opacity: 0.7;
+} 
+ img{
+    position: absolute;
+    /* display: flex; */
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    right: 0;
+}
+
+/* FROM */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 370px;
+    margin: auto;
+
+    font-size: 14px;
+}
+.kosong {
+    width: 100px;
+height: 34px;
+background: #CFD4ED;
+}
+.wlecome {
+    color:black;
+    font-size:24px;
+    margin: 32px 0;
+}
+form > h1, input {
+    margin-bottom: 16px;
+    margin-top: 9px;
+    
+}
+form  > input {
+    height: 38.25px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+    
+}
+
+button {
+    font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+/* Neutral/10 */
+
+color: #FFFFFF;
+    background: #0D28A6;
+border-radius: 2px;
+height: 36px;
+border: #0D28A6;
+margin: 32px 0;
+}
+p {
+    text-align: center;
+font-size: 14px;
+}
+p span {
+    font-weight: 700;
+
+    color:#0D28A6;
+}
